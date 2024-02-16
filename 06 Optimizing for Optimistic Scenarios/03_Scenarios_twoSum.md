@@ -4,7 +4,7 @@
 
 The following function checks whether an array of numbers contains a pair of two numbers that add up to 10.
 
-js
+```js
 function twoSum(array) {
   for (let i = 0; i < array.length; i++ {
     for (let j = 0; j < array.length; j++) {
@@ -15,6 +15,7 @@ function twoSum(array) {
   }
   return false;
 }
+```
 
 What are the best-, average-, and worst-case scenarios? Then, express the worst-case scenario in terms of Big O Notation.
 
