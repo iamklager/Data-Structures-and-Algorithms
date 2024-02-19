@@ -11,21 +11,21 @@ A "100-Sum Array" meets the following criteria:
 - Its third and third-to-last numbers add up to 100, and so on.
 
 Here is the function:
-```python
+```ruby
 def one_hundred_sum?(array)
-    left_index = 0
-    right_index = array.length - 1
-    
-    while left_index < array.length / 2
-        if array[left_index] + array[right_index] != 100
-            return false
-        end
-        
-        left_index += 1
-        right_index -= 1
+  left_index = 0
+  right_index = array.length - 1
+  
+  while left_index < array.length / 2
+    if array[left_index] + array[right_index] != 100
+      return false
     end
     
-    return true
+    left_index += 1
+    right_index -= 1
+  end
+  
+  return true
 end
 ```
 
