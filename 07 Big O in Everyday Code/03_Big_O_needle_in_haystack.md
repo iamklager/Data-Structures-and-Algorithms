@@ -27,8 +27,11 @@ def find_needle(needle, haystack)
       end
     end
     
-    return false
+    needle_start_index += 1
   end
+  
+  return false
+end
 ```
 
 $O(N \cdot M)$
