@@ -56,5 +56,5 @@ sa.QuickSort(i_l = 0, i_r = len(a) - 1)
 print("Quick sort:     ", sa.array)
 a = [0, 5, 2, 1, 6, 3]
 sa = SortableArray(array = a)
-print("Quick select (4th largest): ", sa.QuickSelect(kth_low_val = 4, i_l = 0, i_r = len(a) - 1))
+print("Quick select (4th largest): ", sa.QuickSelect(kth_low_val = 3, i_l = 0, i_r = len(a) - 1))
 
